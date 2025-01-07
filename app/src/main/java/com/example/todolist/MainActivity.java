@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
 
     @RequiresApi(api = Build.VERSION_CODES.O)
     private String getCurrentTime() {
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss\ndd-MM-yy ");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss dd-MM-yy ");
         LocalDateTime currentTime = LocalDateTime.now();
         return currentTime.format(formatter);
     }
