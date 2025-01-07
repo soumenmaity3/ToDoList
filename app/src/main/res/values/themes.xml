@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.ToDoList" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary Colors -->
+        <item name="colorPrimary">#4CAF50</item> <!-- Vibrant green -->
+        <item name="colorPrimaryVariant">#388E3C</item>
+        <item name="colorOnPrimary">#FFFFFF</item> <!-- Text color on primary -->
+
+        <!-- Background and Surface Colors -->
+        <item name="android:colorBackground">#FFFFFF</item> <!-- White background -->
+        <item name="colorSurface">#F5F5F5</item>
+        <item name="colorOnBackground">#000000</item> <!-- Text color on background -->
+        <item name="colorOnSurface">#000000</item> <!-- Text color on surface -->
+
+        <!-- Accent Colors -->
+        <item name="colorSecondary">#FF9800</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+
+        <!-- Text Colors -->
+        <item name="android:textColorPrimary">#212121</item> <!-- Black -->
+        <item name="android:textColorSecondary">#757575</item> <!-- Dark gray -->
+    </style>
+</resources>
